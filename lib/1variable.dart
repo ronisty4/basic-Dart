@@ -1,6 +1,7 @@
 void main(List<String> args) {
   // tipeData namaVariable Value
   // ini menggunakan deklarasi langsung
+  //variable menggunakan gaya penulisan camelCase
   String nama = "Roni Setiawan";
   print("nama saya adalah " + nama);
   print("nama saya adalah " + nama);
