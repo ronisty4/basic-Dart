@@ -2,10 +2,12 @@ void main(List<String> args) {
 sayHello('Roni' );  
 myNumber(myName: 'Roni', number: 23);
 }
-void myNumber({String? myName, int? number}){
+void myNumber({required String? myName, int? number}){
   print('My name is $myName, my Number is $number ');
 
 }
+
+
 
 void sayHello (String name,[int? old]){
   var sayaa = '$name $old';

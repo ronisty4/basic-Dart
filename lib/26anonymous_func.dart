@@ -4,7 +4,7 @@
 String upperWord(String name){
   return name.toUpperCase();
 }
-
+// this anonymous function
 var uppWordFunc = (String name){
   return name.toUpperCase();
 };
